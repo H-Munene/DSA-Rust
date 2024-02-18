@@ -1,6 +1,6 @@
 use crate::binary_search::bin_search;
 
-mod binary_search;
+mod search::binary_search;
 
 fn main() {
     let data = vec!['a', 'b', 'c'];
