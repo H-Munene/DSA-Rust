@@ -1,6 +1,7 @@
 use std::cmp::min;
 use crate::binary_search::recursive_bin_search;
 
+//
 pub fn exponen_search<T>(haystack:&[T], needle: T) -> Option<usize>
 where T: Copy + Ord
 {
@@ -14,9 +15,9 @@ where T: Copy + Ord
             //{1,2,3,4,5} needle 5
             index *= 2;
         }
+        //makes recursive call to already defined recursive binary search function
         return recursive_bin_search(&haystack, needle, index /2 , min(index, elements));
     }
-
 }
 
 

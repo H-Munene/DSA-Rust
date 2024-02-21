@@ -5,6 +5,7 @@ use crate::linear_search::lin_search;
 mod linear_search;
 mod binary_search;
 mod exponential_search;
+mod tests;
 
 fn main() {
     // let data = vec!['a', 'b', 'c'];
