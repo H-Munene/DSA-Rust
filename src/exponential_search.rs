@@ -23,11 +23,11 @@ where T: Copy + Ord
 
 /*
  //{1,2,3,4,5,6} needle 5
-l = 5
+l = 6
 i = 1 true -> i <  l , a[i] <= t
  i = 2 true -> i < l , a[i] <= t
  i = 4 true -> i < n (4 < 5 ) , a[i] <= t
  i = 8 f -> i < n (8 < 5) , a[i] <= t
   case f
-    recur_bin_search(a, i/2(4), min(i(8) , l(5)), t)
+    recur_bin_search(a, i/2(4), min(i(8) , l(6)), t)
  */
