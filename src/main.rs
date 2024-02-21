@@ -6,6 +6,7 @@ mod linear_search;
 mod binary_search;
 mod exponential_search;
 mod tests;
+mod questions;
 
 fn main() {
     // let data = vec!['a', 'b', 'c'];
@@ -38,8 +39,7 @@ mod questions {
         //false values upto a point true values follow
         //[false, false, false, false, false, true, true, true, ...]
         //move to the 1/2^N 
-        let low = false;
-        let high = true;
+
 
 
 
