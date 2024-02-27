@@ -47,3 +47,4 @@ pub fn recursive_bin_search<T>(haystack : &[T], needle : T, low: usize, high : u
     }
     None
 }
+

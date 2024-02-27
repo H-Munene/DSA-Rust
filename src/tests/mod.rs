@@ -2,6 +2,7 @@
 mod test{
     use crate::exponential_search::exponen_search;
     use crate::binary_search::*;
+    use crate::questions::questions::two_crystal_balls;
 
     //passing tests
     #[test]
@@ -50,6 +51,12 @@ mod test{
 
         //incorrect comparison index
         assert_eq!(Some(0), exponen_search(&haystack, needle));
+    }
+
+    #[test]
+    fn crystal_balls() {
+        let breaks = [false,false,false, true];
+        assert_eq!(Some(3), two_crystal_balls(&breaks));
     }
 
 }

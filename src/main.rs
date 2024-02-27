@@ -23,26 +23,4 @@ fn main() {
     println!("Target {} found at index: {}",needle, pos2);
     println!("Target {} found at index: {}",needle, po3);
 
-
-
-
-}
-
-mod questions {
-    pub fn two_crystal_balls(){
-        /*
-        When given two crystal balls that will break if dropped from a
-        high enough distance, determine the exact spot in which it will break
-        in the most optimized way.
-        */
-
-        //false values upto a point true values follow
-        //[false, false, false, false, false, true, true, true, ...]
-        //move to the 1/2^N 
-
-
-
-
-
-    }
 }
