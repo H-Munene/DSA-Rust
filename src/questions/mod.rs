@@ -18,6 +18,7 @@ pub mod questions {
 
         while forward < jump && update_jump < breaks.len() {
             if breaks[update_jump] {
+                //return index of true
                 return Some(update_jump);
             }
             update_jump +=1;
